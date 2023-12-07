@@ -1,6 +1,6 @@
 """Linter to fix missing `dml` argument for pylint and sqlalchemy."""
 import astroid
-import astroid.node_classes
+import astroid.nodes.node_classes
 
 
 def strip_dml(node):
